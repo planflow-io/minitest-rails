@@ -13,7 +13,6 @@ jobs:
     steps:
       - checkout
       - ruby/install-deps:
-          bundler-version: '1.17.2'
           with-cache: false
       - run:
           name: Build CI
