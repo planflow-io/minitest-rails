@@ -13,7 +13,7 @@ jobs:
     steps:
       - checkout
       - ruby/install-deps:
-          bundler-version: 2.3.0
+          bundler-version: 2.3.4
           with-cache: false
           path: './vendor/bundled'
       - run:
